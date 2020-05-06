@@ -23,7 +23,7 @@ isinstance(com, Sized)
 
 b = B()
 print(isinstance(b, A))
-# print(len(com))
+print(len(com))
 
 #我们需要强制某个子类必须实现某些方法
 #实现了一个web框架，集成cache(redis, cache, memorychache)
